@@ -34,3 +34,6 @@ response = s3_c.get_object(Bucket=bucket_name, Key=object_key)
 file_content = response["Body"].read().decode("utf-8")
 
 print(file_content)
+
+
+
